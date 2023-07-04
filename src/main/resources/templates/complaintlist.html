@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="" th:href="@{/css/complaintbox.css}">
+		<title>Registration Form</title>
+	</head>
+	
+	<body>
+		<div class="bgo">
+			<img src="" th:src="@{image/aathop.jpg}" alt="" />
+		</div>
+		<nav> 
+			<div class="logo">
+				<a href="home">V I T - A P</a>
+			</div>
+			<UL>
+					 <li>	<a href="RegistrationForm"> Register Complaint</a>			</li>
+					 <li>	<a href="#"> Check Complaint status           </a>			</li>
+					 <li>	<a href="#"> Edit Complaints                  </a>			</li>
+					 <li>	<a href="#"> Help                             </a>			</li>
+			</UL>
+		</nav>
+		
+		
+		<div class="complaints">
+			<select id="all-options">
+				<option value="Person missing">				PERSON MISSING 					</option>
+				<option value="CellPhone missing">			CELL PHONE MISSING / THEFT		</option>
+				<option value="Jewel Snatching">			JEWEL SNATCHING / THEFT			</option>
+				<option value="Bag Lifting">				BAG LIFTING / THEFT				</option>
+				<option value="Receiving Stolen Property">	RECEIVING STOLEN PROPERTY		</option>
+				<option value="Other Theft">				OTHER THEFT						</option>
+			</select>		
+				
+		</div>
+		
+		<button id="gotoform_btn" type="button" th:onclick="|window.location.href='/form'|"> Register Now !!</button>
+		
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+

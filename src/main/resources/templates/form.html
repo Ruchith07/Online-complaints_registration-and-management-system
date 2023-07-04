@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="" th:href="@{/css/formfiller.css}">
+		<title>Registration Form</title>
+	</head>
+	
+	<body>
+		
+		<div class="bga">
+			<img src="" th:src="@{image/aathop.jpg}" alt="" />
+		</div>
+		
+		<nav> 
+			<div class="logo">
+				<a href="home">V I T - A P</a>
+			</div>
+			<UL>
+					 <li>	<a href="RegistrationForm"> Register Complaint</a>			</li>
+					 <li>	<a href="#"> Check Complaint status           </a>			</li>
+					 <li>	<a href="#"> Edit Complaints                  </a>			</li>
+					 <li>	<a href="#"> Help                             </a>			</li>
+			</UL>
+		</nav>
+		<br><br>
+		<div class="register">
+			<h1> COMPLAINTS REGISTRATION FORM </h1>
+			<form id="register" method="post">
+				<label>Name</label>
+				
+				<input type="text" name="fname" id="name" 
+				       placeholder="Enter Your Full Name">
+				<br><br>
+				
+				<label>Gender</label>
+				
+				<br>
+				<input type="radio" name="gender" id="male">
+				&nbsp;
+				<span id="male">Male</span>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<input type="radio" name="gender" id="female">
+				&nbsp;
+				<span id="female">female</span>
+				<br> <br>
+				
+				<button id="databtn" type="button"> Submit Details </button>
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

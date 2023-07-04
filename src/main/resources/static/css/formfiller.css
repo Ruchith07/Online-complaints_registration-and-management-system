@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body{
+    background: lightgrey;
+}
+
+.bga{
+	position: fixed;
+	height: 1000%;
+	width: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+nav .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    cursor : pointer;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+}
+
+nav ul{
+    float: right;
+}
+
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: chartreuse;
+    transition: all 0.2s ease 0s;
+}
+
+.register h1{
+	margin-top: 10px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    height: 300px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+}
+
+#register {
+    position: fixed;
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+#databtn{
+	cursor: pointer;
+	background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
